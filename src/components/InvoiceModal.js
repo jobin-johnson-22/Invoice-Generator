@@ -27,9 +27,9 @@ function GenerateInvoice() {
 }
 
 class InvoiceModal extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
   render() {
     return (
       <div>
@@ -43,7 +43,7 @@ class InvoiceModal extends React.Component {
             <div className='d-flex flex-row justify-content-between align-items-start bg-light w-100 p-4'>
               <div className='w-100'>
                 <h4 className='fw-bold my-2'>
-                  {this.props.info.billFrom || 'John Uberbacher'}
+                  {this.props.info.billFrom || 'Jobin Johnson'}
                 </h4>
                 <h6 className='fw-bold text-secondary mb-1'>
                   Invoice #: {this.props.info.invoiceNumber || ''}
@@ -120,7 +120,7 @@ class InvoiceModal extends React.Component {
                       {this.props.currency} {this.props.subTotal}
                     </td>
                   </tr>
-                  {this.props.taxAmmount != 0.0 && (
+                  {this.props.taxAmmount !== 0.0 && (
                     <tr className='text-end'>
                       <td></td>
                       <td className='fw-bold' style={{ width: '100px' }}>
@@ -131,7 +131,7 @@ class InvoiceModal extends React.Component {
                       </td>
                     </tr>
                   )}
-                  {this.props.discountAmmount != 0.0 && (
+                  {this.props.discountAmmount !== 0.0 && (
                     <tr className='text-end'>
                       <td></td>
                       <td className='fw-bold' style={{ width: '100px' }}>
