@@ -9,6 +9,7 @@ export default function Invoice({ val, view, edit, remove }) {
             className='image'
             onClick={view}
             src='https://www.svgrepo.com/show/458981/view.svg'
+            alt='svg_image'
           />
         </span>{' '}
       </div>
@@ -20,6 +21,7 @@ export default function Invoice({ val, view, edit, remove }) {
             className='image'
             onClick={edit}
             src='https://www.svgrepo.com/show/513824/edit.svg'
+            alt='svg_image'
           />{' '}
         </span>{' '}
       </div>
@@ -31,6 +33,7 @@ export default function Invoice({ val, view, edit, remove }) {
             className='image'
             onClick={remove}
             src='https://www.svgrepo.com/show/511788/delete-1487.svg'
+            alt='svg_image'
           />
         </span>{' '}
       </div>

@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { deleteInvoice } from '../redux/invoiceSlice/action';
 
-export default function All_Invoices() {
+export default function AllInvoices() {
   const invoices = useSelector((state) => state.invoices);
   const dispatch = useDispatch();
   const navigate = useNavigate();
