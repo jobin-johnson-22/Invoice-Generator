@@ -1,3 +1,5 @@
+import { combineReducers } from 'redux';
+
 const initialState = {
   invoices: [
     {
@@ -47,5 +49,6 @@ export const invoiceReducer = (state = initialState, { type, payload }) => {
       return state;
     default:
       return state;
+    // case: 'ADD_INVOICE':
   }
 };
