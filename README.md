@@ -3,7 +3,7 @@
 # Live Demo:
 https://invoice-generator-assgn.netlify.app/
 
-# Installation:
+# Installation and Setup:
 
 git clone https://github.com/jobin-johnson-22/Invoice-Generator
 
